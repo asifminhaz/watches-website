@@ -1,3 +1,8 @@
 .headline{
     color: rgb(167, 55, 55);
 }
+.products-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+}

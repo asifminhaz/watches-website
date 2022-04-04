@@ -1,5 +1,6 @@
 .headline{
     color: rgb(167, 55, 55);
+    margin-left: 20px;
 }
 .products-info{
     display:grid;
@@ -9,10 +10,20 @@
 .customer-reviews{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin: 40px;
 }
 .btn-info{
-    color: blue;
-    justify-content: center;
-    text-align: center;
-    
+    background-color:blue;
+    color: beige;
+    height: 40px;
+    width: 110px;
+   
+}
+.btn-info a:hover{
+    color: red;
+}
+.btn-type{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bolder;
 }

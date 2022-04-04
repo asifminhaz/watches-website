@@ -1,7 +1,13 @@
 .nav-items a{
   margin-left: 50px;
   text-decoration: none;
+  font-weight: 600;
+
+
 }
 .nav-items a:hover{
     color: darkorange;
+}
+.nav-items{
+    margin-top: 20px;
 }

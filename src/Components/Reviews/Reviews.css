@@ -2,7 +2,10 @@
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    border: 1px solid brown;
+   
     margin: 20px;
 
+}
+.all-reviews{
+    border: 1px solid brown;
 }

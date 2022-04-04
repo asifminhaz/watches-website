@@ -6,7 +6,9 @@ import './Reviews.css'
 const Reviews = () => {
     const [reviews, setReviews] = useReviews();
     return (
-        <div className='reviews-item'>
+        
+        <div className='all-reviews' >
+            <div className='reviews-item'>
             {
                 reviews.map(review => 
                 <h3>{review.name}
@@ -14,6 +16,7 @@ const Reviews = () => {
                <p>Ratings: {review.ratings}</p>
                 </h3>) 
             }
+            </div>
         </div>
     );
 };

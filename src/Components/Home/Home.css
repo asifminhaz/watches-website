@@ -10,3 +10,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+.btn-info{
+    color: blue;
+    justify-content: center;
+    text-align: center;
+    
+}
